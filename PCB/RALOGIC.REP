@@ -1,0 +1,498 @@
+
+
+    Bill of Materials                                               RSUP.PCB
+
+                            ANALISADOR LOGICO PARA PC
+
+    Quantity  Type              Value             Ref Designators
+    ========================================================================
+
+        20    1N4148                              D1,D2,D3,D4,D5,D6,D7,D8,
+                                                  D9,D10,D11,D12,D13,D14,
+                                                  D15,D16,D17,D18,D19,D20
+         1    2016                                U3
+         2    4017                                U21,U24
+        33    CAP               VAL               C1,C2,C3,C4,C5,C6,C7,C8,
+                                                  C9,C10,C11,C12,C13,C14,
+                                                  C15,C16,C17,C18,C19,C20,
+                                                  C21,C22,C23,C24,C25,C26,
+                                                  C27,C28,C29,C30,C31,C32,
+                                                  C33
+         2    CON4PIN                             CN2,CN4
+         2    CON10PIN                            CN1,CN3
+         1    CRYSTAL           VAL               X1
+         8    MPF102            VAL               Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8
+         8    RES               1K                R1,R2,R3,R4,R9,R10,R11,R12
+         8    RES               1M                R5,R6,R7,R8,R13,R14,R15,
+                                                  R16
+        13    RES               4K7               R20,R21,R22,R23,R24,R25,
+                                                  R26,R27,R28,R29,R31,R33,
+                                                  R34
+         3    RES               10K               R17,R30,R32
+         2    RES               330R              R18,R19
+         1    SN74LS00N                           U5
+         1    SN74LS04N                           U2
+         1    SN74LS08N                           U12
+         1    SN74LS30N                           U17
+         4    SN74LS74AN                          U20,U23,U26,U28
+         1    SN74LS125AN                         U4
+         4    SN74LS126AN                         U11,U18,U22,U27
+         3    SN74LS161AN                         U14,U15,U16
+         4    SN74LS196N                          U7,U8,U9,U10
+         2    SN74LS221N                          U1,U25
+         1    SN74LS240N                          U6
+         1    SN74LS244N                          U13
+         1    SN74LS373N                          U19
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        
+
+    17-Sep-97  14:29                                                 Page  1
+
+    PCB Components                                                  RSUP.PCB
+
+                            ANALISADOR LOGICO PARA PC
+
+    Ref Designator    Pattern           Type              Value
+    ========================================================================
+
+    C1                CAP100            CAP               VAL              
+    C2                CAP100            CAP               VAL              
+    C3                CAP100            CAP               VAL              
+    C4                CAP100            CAP               VAL              
+    C5                CAP100            CAP               VAL              
+    C6                CAP100            CAP               VAL              
+    C7                CAP100            CAP               VAL              
+    C8                CAP100            CAP               VAL              
+    C9                CAP100            CAP               VAL              
+    C10               CAP100            CAP               VAL              
+    C11               CAP100            CAP               VAL              
+    C12               CAP100            CAP               VAL              
+    C13               CAP100            CAP               VAL              
+    C14               CAP100            CAP               VAL              
+    C15               CAP100            CAP               VAL              
+    C16               CAP100            CAP               VAL              
+    C17               CAP100            CAP               VAL              
+    C18               CAP100            CAP               VAL              
+    C19               CAP100            CAP               VAL              
+    C20               CAP100            CAP               VAL              
+    C21               CAP100            CAP               VAL              
+    C22               CAP100            CAP               VAL              
+    C23               CAP100            CAP               VAL              
+    C24               CAP100            CAP               VAL              
+    C25               CAP100            CAP               VAL              
+    C26               CAP100            CAP               VAL              
+    C27               CAP100            CAP               VAL              
+    C28               CAP100            CAP               VAL              
+    C29               CAP100            CAP               VAL              
+    C30               CAP100            CAP               VAL              
+    C31               CAP100            CAP               VAL              
+    C32               CAP100            CAP               VAL              
+    C33               CAP100            CAP               VAL              
+    CN1               CON10PIN          CON10PIN                           
+    CN2               SIP4              CON4PIN                            
+    CN3               CON10PIN          CON10PIN                           
+    CN4               SIP4              CON4PIN                            
+    D1                DO-41             1N4148                             
+    D2                DO-41             1N4148                             
+    D3                DO-41             1N4148                             
+    D4                DO-41             1N4148                             
+    D5                DO-41             1N4148                             
+    D6                DO-41             1N4148                             
+    D7                DO-41             1N4148                             
+    D8                DO-41             1N4148                             
+    D9                DO-41             1N4148                             
+    D10               DO-41             1N4148                             
+    D11               DO-41             1N4148                             
+    D12               DO-41             1N4148                             
+    D13               DO-41             1N4148                             
+    D14               DO-41             1N4148                             
+    D15               DO-41             1N4148                             
+    D16               DO-41             1N4148                             
+    D17               DO-41             1N4148                             
+    D18               DO-41             1N4148                             
+    D19               DO-41             1N4148                             
+    D20               DO-41             1N4148                             
+    Q1                TO-92(DSG)        MPF102            VAL              
+    Q2                TO-92(DSG)        MPF102            VAL              
+
+                                        
+
+    17-Sep-97  14:29                                                 Page  1
+
+    PCB Components                                                  RSUP.PCB
+
+                            ANALISADOR LOGICO PARA PC
+
+    Ref Designator    Pattern           Type              Value
+    ========================================================================
+
+    Q3                TO-92(DSG)        MPF102            VAL              
+    Q4                TO-92(DSG)        MPF102            VAL              
+    Q5                TO-92(DSG)        MPF102            VAL              
+    Q6                TO-92(DSG)        MPF102            VAL              
+    Q7                TO-92(DSG)        MPF102            VAL              
+    Q8                TO-92(DSG)        MPF102            VAL              
+    R1                RES400            RES               1K               
+    R2                RES400            RES               1K               
+    R3                RES400            RES               1K               
+    R4                RES400            RES               1K               
+    R5                RES400            RES               1M               
+    R6                RES400            RES               1M               
+    R7                RES400            RES               1M               
+    R8                RES400            RES               1M               
+    R9                RES400            RES               1K               
+    R10               RES400            RES               1K               
+    R11               RES400            RES               1K               
+    R12               RES400            RES               1K               
+    R13               RES400            RES               1M               
+    R14               RES400            RES               1M               
+    R15               RES400            RES               1M               
+    R16               RES400            RES               1M               
+    R17               RES400            RES               10K              
+    R18               RES400            RES               330R             
+    R19               RES400            RES               330R             
+    R20               RES400            RES               4K7              
+    R21               RES400            RES               4K7              
+    R22               RES400            RES               4K7              
+    R23               RES400            RES               4K7              
+    R24               RES400            RES               4K7              
+    R25               RES400            RES               4K7              
+    R26               RES400            RES               4K7              
+    R27               RES400            RES               4K7              
+    R28               RES400            RES               4K7              
+    R29               RES400            RES               4K7              
+    R30               RES400            RES               10K              
+    R31               RES400            RES               4K7              
+    R32               RES400            RES               10K              
+    R33               RES400            RES               4K7              
+    R34               RES400            RES               4K7              
+    U1                DIP16             SN74LS221N                         
+    U2                DIP14             SN74LS04N                          
+    U3                DIP24             2016                               
+    U4                DIP14             SN74LS125AN                        
+    U5                DIP14             SN74LS00N                          
+    U6                DIP20             SN74LS240N                         
+    U7                DIP14             SN74LS196N                         
+    U8                DIP14             SN74LS196N                         
+    U9                DIP14             SN74LS196N                         
+    U10               DIP14             SN74LS196N                         
+    U11               DIP14             SN74LS126AN                        
+    U12               DIP14             SN74LS08N                          
+    U13               DIP20             SN74LS244N                         
+    U14               DIP16             SN74LS161AN                        
+    U15               DIP16             SN74LS161AN                        
+    U16               DIP16             SN74LS161AN                        
+    U17               DIP14             SN74LS30N                          
+    U18               DIP14             SN74LS126AN                        
+    U19               DIP20             SN74LS373N                         
+
+                                        
+
+    17-Sep-97  14:29                                                 Page  2
+
+    PCB Components                                                  RSUP.PCB
+
+                            ANALISADOR LOGICO PARA PC
+
+    Ref Designator    Pattern           Type              Value
+    ========================================================================
+
+    U20               DIP14             SN74LS74AN                         
+    U21               DIP16             4017                               
+    U22               DIP14             SN74LS126AN                        
+    U23               DIP14             SN74LS74AN                         
+    U24               DIP16             4017                               
+    U25               DIP16             SN74LS221N                         
+    U26               DIP14             SN74LS74AN                         
+    U27               DIP14             SN74LS126AN                        
+    U28               DIP14             SN74LS74AN                         
+    X1                CAP300            CRYSTAL           VAL              
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        
+
+    17-Sep-97  14:29                                                 Page  3
+
+    PCB Statistics                                                  RSUP.PCB
+
+                            ANALISADOR LOGICO PARA PC
+
+    ========================================================================
+
+    Arcs:    116     Components:     128     Pads:   666     Polygons:    34
+    Lines:  2036     Text strings:   276     Vias:   200     Holes:      866
+
+    ------------------------------------------------------------------------
+
+    Text Summary -        T_0020_004_0:    12
+                          T_0020_004_3:     4
+                          T_0028_004_3:     8
+                          T_0048_008_0:     1
+                          T_0048_010_0:     2
+                          T_0048_010_1:     1
+                          T_0048_010_4:     1
+                          T_0060_010_0:   168
+                          T_0060_010_1:     4
+                          T_0060_010_2:    28
+                          T_0060_010_3:    47
+    
+    Line Summary -        L_010:   583
+                          L_012:  1473
+                          L_040:    96
+    
+    Pad Summary  -        P_EL_0040_0040_022_AL:    16
+                          P_EL_0060_0060_034_AL:    18
+                          P_EL_0060_0060_038_AL:   480
+                          P_EL_0070_0070_046_AL:    20
+                          P_MH_0156_0156_156_AL:     4
+                          P_SQ_0040_0040_022_AL:     8
+                          P_SQ_0060_0060_034_AL:     2
+                          P_SQ_0060_0060_038_AL:    98
+                          P_SQ_0070_0070_046_AL:    20
+    
+    Via Summary  -        V_CR_040_020:   200
+    
+    Hole Summary -        H_020:   200
+                          H_022:    24
+                          H_034:    20
+                          H_038:   578
+                          H_046:    40
+                          H_156:     4
+    
+    Plane Connections -   Power Thermals:      0
+                          Power Directs:       0
+                          Ground Thermals:     0
+                          Ground Directs:      0
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        
+
+    17-Sep-97  14:29                                                 Page  1
+
+    Design Rule Check Report                                        RSUP.PCB
+
+                            ANALISADOR LOGICO PARA PC
+
+    ========================================================================
+
+    DRC Clearances (in mils)
+    ------------------------
+
+                   Top   Bot  Mid1  Mid2  Mid3  Mid4  Mid5  Mid6  Mid7  Mid8
+
+      Pad-to-Pad    13    13    13    13    13    13    13    13    13    13
+     Pad-to-Line    13    13    13    13    13    13    13    13    13    13
+    Line-to-Line    13    13    13    13    13    13    13    13    13    13
+    
+    Hole-to-Hole    13
+    
+
+    DRC Report Options
+    ------------------
+
+    Clearance Violations:             enabled
+    Text Violations:                  enabled
+    Net List Violations:              enabled
+    Single Node Routes:               enabled
+    Unconnected Pins:                 enabled
+    Unplaced Nodes:                   enabled
+    
+
+    DRC Errors
+    ----------
+
+    
+
+    Unconnected Pins
+    ----------------
+
+       U9-9 at (13900,9500) 
+       U9-2 at (13500,9200) 
+       U7-9 at (13900,10000) 
+       U7-2 at (13500,9700) 
+       U21-6 at (13800,10200) 
+       U21-12 at (13700,10500) 
+       U21-11 at (13800,10500) 
+       U21-9 at (14000,10500) 
+       U24-12 at (12600,10700) 
+       U24-11 at (12700,10700) 
+       U25-12 at (12600,10000) 
+       U25-4 at (12500,9700) 
+       U8-9 at (12700,9200) 
+       U8-2 at (12300,8900) 
+       U10-2 at (12300,8300) 
+       U10-9 at (12700,8600) 
+       U5-6 at (12700,11100) 
+       U5-8 at (12800,11400) 
+       U5-11 at (12500,11400) 
+       U19-14 at (10100,12000) 
+       U19-15 at (10000,12000) 
+       U26-6 at (10300,11100) 
+       U26-8 at (10400,11400) 
+       U23-6 at (10300,10600) 
+       U23-8 at (10400,10900) 
+       U16-11 at (10200,8600) 
+       U16-12 at (10100,8600) 
+       U16-13 at (10000,8600) 
+       U16-15 at (9800,8600) 
+
+                                        
+
+    17-Sep-97  14:29                                                 Page  1
+
+    Design Rule Check Report                                        RSUP.PCB
+
+                            ANALISADOR LOGICO PARA PC
+
+    ========================================================================
+
+       U12-11 at (10100,9200) 
+       U12-8 at (10400,9200) 
+       U28-6 at (11500,8900) 
+       U28-8 at (11600,9200) 
+       U4-11 at (11300,12000) 
+       U4-8 at (11600,12000) 
+       CN2-4 at (6700,11700) 
+       CN1-10 at (6700,10000) 
+       CN3-10 at (8900,12000) 
+       U17-9 at (8700,9200) 
+       U17-10 at (8600,9200) 
+       U17-13 at (8300,9200) 
+       U20-6 at (10300,10100) 
+       U20-8 at (10400,10400) 
+       U27-11 at (11300,10000) 
+    
+    
+    Unplaced Nodes
+    -------------
+
+       No unplaced nodes detected.
+    
+    DRC Summary
+    -----------
+
+            0 errors detected
+           44 unconnected pins detected
+            0 unplaced nodes detected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        
+
+    17-Sep-97  14:29                                                 Page  2

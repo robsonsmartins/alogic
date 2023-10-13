@@ -1,0 +1,146 @@
+
+
+    Bill of Materials                                             ALOGIC.S02
+
+                            ANALISADOR LOGICO PARA PC
+
+    Quan  Type                 Value                Ref Designators
+    ========================================================================
+
+      20  1N4148                                    D1,D10,D11,D12,D13,D14,
+                                                    D15,D16,D17,D18,D19,D2,
+                                                    D20,D3,D4,D5,D6,D7,D8,D9
+    
+       1  6116-3                                      U3
+                                                    
+    
+       2  4017B                                      U21,U24
+                                                    
+    
+      30  CAP                  100nF                C1,C10,C11,C12,C13,C14,
+                                                    C15,C16,C17,C18,C19,C20,
+                                                    C21,C22,C23,C24,C25,C26,
+                                                    C27,C28,C29,C3,C30,C31,
+                                                    C32,C33,C6,C7,C8,C9
+    
+       1  CAP                  1nF                  C2
+                                                    
+    
+       2  CAP                  10pF                 C4,C5
+                                                    
+    
+       2  CON10PIN                                  CN1,CN3
+                                                    
+    
+       2  CON4PIN                                   CN2,CN4
+                                                    
+    
+       1  CRYSTAL              10MHz                X1
+                                                    
+    
+       8  MPF102               VAL                  Q1,Q2,Q3,Q4,Q5,Q6,Q7,Q8
+                                                    
+    
+       8  RES                  1K                   R1,R10,R11,R12,R2,R3,R4,
+                                                    R9
+    
+       8  RES                  1M                   R13,R14,R15,R16,R5,R6,
+                                                    R7,R8
+    
+       3  RES                  10K                  R17,R30,R32
+                                                    
+    
+       2  RES                  330R                 R18,R19
+                                                    
+    
+      13  RES                  4K7                  R20,R21,R22,R23,R24,R25,
+                                                    R26,R27,R28,R29,R31,R33,
+                                                    R34
+
+       1  74LS00                                    U5
+                                                    
+    
+       1  74LS04                                    U2
+                                                    
+    
+       1  74LS08                                    U12
+                                                    
+    
+       1  74LS125                                   U4
+                                                    
+
+                                        
+
+    31-Aug-97  10:25                                                 Page  1
+
+    Bill of Materials                                             ALOGIC.S02
+
+                            ANALISADOR LOGICO PARA PC
+
+    Quan  Type                 Value                Ref Designators
+    ========================================================================
+
+    
+       4  74LS126                                   U11,U18,U22,U27
+                                                    
+    
+       3  74LS161                                   U14,U15,U16
+                                                    
+    
+       4  74LS196                                   U10,U7,U8,U9
+                                                    
+    
+       2  74LS221                                   U1,U25
+                                                    
+    
+       1  74LS240                                   U6
+                                                    
+    
+       1  74LS244                                   U13
+                                                    
+    
+       1  74LS30                                    U17
+                                                    
+    
+       1  74LS373                                   U19
+                                                    
+    
+       4  74LS74                                    U20,U23,U26,U28
+                                                    
+    
+    
+    Total Parts: 128
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                        
+
+    31-Aug-97  10:25                                                 Page  2

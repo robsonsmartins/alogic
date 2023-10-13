@@ -1,0 +1,3 @@
+*.PL linguist-detectable=false
+*.PLT linguist-detectable=false
+*.PAS linguist-detectable=true
