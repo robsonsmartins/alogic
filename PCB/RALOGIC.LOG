@@ -1,0 +1,90 @@
+     TANGO-ROUTE PLUS STATISTICS LOG
+        LOG FILENAME:  RSUP.LOG
+        DATE/TIME:  Wed Sep 17 12:02:34 1997
+
+     Filename Specifications:
+        Input  .PCB file:  SUP.PCB
+        Output .PCB file:  RSUP.PCB
+        Output .LOG file:  RSUP.LOG
+        Setup  .SET file:  SUP.SET
+
+     PCB Layer Assignments:
+        Top:      Vertical routes
+        Bottom:   Horizontal routes
+        Mid 1:    (disabled)
+        Mid 2:    (disabled)
+        Mid 3:    (disabled)
+        Mid 4:    (disabled)
+        Mid 5:    (disabled)
+        Mid 6:    (disabled)
+        Mid 7:    (disabled)
+        Mid 8:    (disabled)
+
+     Routing Parameters:
+        Routing Grid:       25 mils
+        Routing Line Width: 12 mils
+        Routing Clearance:  13 mils
+        Via Diameter:       40 mils
+        Via Hole Diameter:  20 mils
+
+        Pad-to-Pad DRC:     13 mils
+        Pad-to-Line DRC:    13 mils
+        Line-to-Line DRC:   13 mils
+
+     Reading PCB file
+
+     Processing pads
+
+     Processing lines
+
+     Processing polygons
+
+     Processing text
+
+     Processing keepouts
+
+     Processing polygons
+
+     Optimizing pre-routed lines
+
+     Optimizing nets
+
+     Routing Performance:
+                               Routes   Percentage       Time in    Total
+        Pass Title          Completed    Completed          Pass     Time
+
+        Pre-routed signals:         0           0%          0:10     0:10
+        Wide line routing:          0           0%          0:00     0:10
+        Horizontal routes:        169          34%          0:04     0:14
+        Vertical routes:          328          66%          0:03     0:17
+        L routes (1 via):         432          87%          0:19     0:36
+        Z routes (2 vias):        465          94%          0:08     0:44
+        C routes (2 vias):        468          94%          0:03     0:47
+        Any node (2 vias):        476          96%          0:10     0:57
+        Maze routes:              491          99%          0:29     1:26
+        Any node (maze routes):   492          99%          0:07     1:33
+        Route clean-up:           562 segs removed          0:34     2:07
+        Via minimization:          50 vias removed          0:03     2:10
+
+     Net list analysis:
+
+        Net not entirely routed:  NET_166
+
+            0   U5-2                U4-3                
+
+            1   U11-3
+
+
+     Final Board Statistics:
+
+        Total pins (in input PCB file):     662
+        Equivalent 16 pin IC's (EIC's):    41.3
+        Area on PCB (square inches):       38.2
+        Density (sq inches per EIC):       0.92
+        Vias added:                         390
+        Completed routes:                   492  ( 99%)
+        Non-completed routes:                 1  (  1%)
+
+        Total execution time:              2:12
+
+     Tango-Route PLUS  V2.10 
